@@ -1,2 +1,2 @@
-# cookbook_development
+# Chef cookbook_development
 cookbook development standards
