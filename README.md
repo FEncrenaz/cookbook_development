@@ -79,9 +79,10 @@ What is Unit test? (ChefSpec + RSpec)
 Quick walktrhough of how to use feature,bug branches and pull request to develop and adding them to the project. Below are the steps working on a new
 #### feature (feature/[#issuenumber])
 when starting a new feature (#123) , make sure to start with the latest codebase by forking your own copy to your account and using master branch or specified branch as your team:
-![Click on FORK](doc/fork.png "Click on FORK")
-own copy to your account
-![own copy to your account](doc/fork_under_username.png "your account")
+##### step1 :Uclick on fork 
+![click on fork](doc/fork.png "Click on FORK")
+##### step2 :copy to own your account
+![copy to own your account](doc/fork_under_username.png "your account")
 ```
 git clone https://github.com/reancloud/cookbook_development.git
 cd .\cookbook_development\
@@ -140,7 +141,7 @@ when starting a new bug fix (#123) , make sure to start with the latest codebase
 Following the naming convention, the branch name have to be bug/issuenumber like
 ```
 git clone git@github.com/reancloud/cookbook_development.git
-cd .\hcm_rmk\
+cd .\cookbook_development\
 git checkout master
 git checkout -b bug/1234
 ```
@@ -155,11 +156,12 @@ When you are making a commit, always use references on the issue number like (#i
 ### Git merge requests <a name="GITCommits"></a>
 1) Raise a pull request from your repo, selecting the branch
 ![Step 1](doc/click_on_NEW_PR.png "Step 1")
-2) Check the target and the source
-![Step 2](doc/compare_thechanges_PR.png "Step 2")
+2) Check the target and the source, example in yellow box  
+![Step 2](doc/compare_the_changes_PR.png "Step 2")
 3) always references on the original issue (#4123)
-4) always include the result of the kitchen-verify output
-The result at the original repo
+4) always try to include the result of the kitchen-verify output
+
+Check your pull requests under upstream repo, sample PR(pull requests) 
 ![Result](doc/see_PR_under_main_repo.png "Result")
 
 5) Just a side note, why you have to use references in your commit messages
