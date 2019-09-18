@@ -79,7 +79,7 @@ What is Unit test? (ChefSpec + RSpec)
 Quick walktrhough of how to use feature,bug branches and pull request to develop and adding them to the project. Below are the steps working on a new
 #### feature (feature/[#issuenumber])
 when starting a new feature (#123) , make sure to start with the latest codebase by forking your own copy to your account and using master branch or specified branch as your team:
-##### step1 :Uclick on fork 
+##### step1 :click on fork 
 ![click on fork](doc/fork.png "Click on FORK")
 ##### step2 :copy to own your account
 ![copy to own your account](doc/fork_under_username.png "your account")
@@ -166,7 +166,7 @@ Check your pull requests under upstream repo, sample PR(pull requests)
 
 5) Just a side note, why you have to use references in your commit messages
 (more easier to track the changes)
-![Commit ref](doc/PR_message.png "references")
+
 
 ### IDE <a name="LocalDevEnvIDE"></a>
 You can use any kind of text editor what you want, this is just an example what I am using.
